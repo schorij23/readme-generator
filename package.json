@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express-validator": "^7.0.1",
     "inquirer": "^8.2.6"
   }
 }
