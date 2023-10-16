@@ -9,29 +9,25 @@ const questions = [
         
         // Project Title
     {   type : "input",
-        name : "project title",
+        name : "title",
         message : "Enter the name of the Project"
 
     },
     {   // Project Description
         type: "input",
         name: "description",
-        message: "Enter a description of the project:"
+        message: "Description your project:"
     },
-    {   // Table of Contents???
-        type: "input",
-        name: "table of contents ???"
-
-    },
-    {   // Installations - dependancies???, how to guide???
+ 
+    {   // Installation
         type: "input",
         name: "installations",
-        message: ""
+        message: "How do you install this program"
     },
-    {   // Usage ???
+    {   // Usage
         type: "input",
         name: "usage",
-        message: ""
+        message: "How to use this application"
     },
     {   // Create a License with more than on option
         type: "list",
@@ -39,18 +35,17 @@ const questions = [
         message: "What types license should be used?",
         choices: ["MIT","GLP3.0","APACHE2.0","Boost1.0","BSD2","BSD3","EPL2.0","MPL-2.0","None"]
     },
-    {   // Contribution Guidelines (avoid lawsuit??)
+    {   // Contribution Guidelines
         type: "input",
         name: "contributors",
         message: "Who contributed to the project?"
     },
-    {   // Test Instructions ???
+    {   // Test Instructions
         type: "input",
         name: "test",
-        message: "Instructions to run tests???"
+        message: "What test will you run for this application?"
     },
     {
-    
         type: "input",
         name: "github",
         message: "Enter your GitHub username"
@@ -65,11 +60,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+    fs.writeFile(fileName, data, function (err){
         if (err) {
           console.error(err);
         } else {
-          console.log(`README.md has been generated successfully as ${fileName}`);
+          console.log(`README.md was successfully as ${fileName}`);
         }
       });
     }
@@ -78,7 +73,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-    .prompt(questions).then((answers) => {
+    .prompt(questions).then(function(answers) {
+        console.log(answers)
       const markdownContent = generateMarkdown(answers);
       writeToFile('README.md', markdownContent);
     })
@@ -90,31 +86,9 @@ function init() {
 // Function call to initialize app
 init();
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, function(err) {
-//       if (err) {
-//         console.error(err);
-//       } else {
-//         console.log(`${fileName} has been successfully created!`);
-//       }
-//     });
-//   }
-  
 
 
-// // TODO: Create a function to initialize app
-// function init() {
-//     inquirer.prompt([
-//         // Questions about the project (title, description, license)
-//     ])
-//     .then((answers) => {
-//         const readmeContent = generateREADME(answers);
-//         writeToFile('README.md', readmeContent);
-//     });
-// }
-
-
+// I THINK THIS IS THE MARKDOWN PART
 // // Function call to initialize app
 // init();
 
@@ -164,6 +138,8 @@ init();
 //     // Return the complete README content
 //     return content;
 // }
+
+
 
 
 
