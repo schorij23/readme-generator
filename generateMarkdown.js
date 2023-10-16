@@ -19,15 +19,15 @@ ${data.description}
 ${data.installations}
 ## Usage
 ${data.usage}
-##
+## License
 ${data.license}
-##
+## contributor 
 ${data.contributors}
-##
+## Testing
 ${data.test}
-##
+## Github
 ${data.github}
-##
+## Email
 ${data.email}
 
 
