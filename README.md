@@ -1,5 +1,5 @@
-# name
-## description
+## Name name
+## Description
 project
 ## Installation
 
@@ -7,14 +7,14 @@ project
 
 ## License
 MIT
-## contributor 
+## Contributor 
 
 ## Testing
 
 ## Github
-jibber jaber
+hfshssh
 ## Email
-,sfdmgflkgj
+sfdgdshd
 
 
 
