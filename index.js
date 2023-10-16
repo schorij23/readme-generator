@@ -43,7 +43,7 @@ const questions = [
     {   // Test Instructions
         type: "input",
         name: "test",
-        message: "What test will you run for this application?"
+        message: "What tests will you run for this application?"
     },
     {
         type: "input",
