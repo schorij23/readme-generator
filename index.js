@@ -2,58 +2,58 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateMarkdown = require("./generateMarkdown");
+const generateMarkdown = require('./generateMarkdown');
 
 //  array of questions for user input
 const questions = [
         
         // Project Title
-    {   type : "input",
-        name : "title",
-        message : "Enter the name of the Project"
+    {   type : 'input',
+        name : 'title',
+        message : 'Enter the name of the Project'
 
     },
     {   // Project Description
-        type: "input",
-        name: "description",
-        message: "Description your project:"
+        type: 'input',
+        name: 'description',
+        message: 'Description your project:'
     },
  
     {   // Installation
-        type: "input",
-        name: "installations",
-        message: "How do you install this program"
+        type: 'input',
+        name: 'installations',
+        message: 'How do you install this program'
     },
     {   // Usage
-        type: "input",
-        name: "usage",
-        message: "How to use this application"
+        type: 'input',
+        name: 'usage',
+        message: 'How to use this application'
     },
     {   // Create a License with more than on option
-        type: "list",
-        name: "license",
-        message: "What types license should be used?",
-        choices: ["MIT","GLP3.0","APACHE2.0","Boost1.0","BSD2","BSD3","EPL2.0","MPL-2.0","None"]
+        type: 'list',
+        name: 'license',
+        message: 'What types license should be used?',
+        choices: ['MIT','Apache 2.0','GPL 3.0','Boost 1.0','BSD2','BSD3','EPL2.0','None']
     },
     {   // Contribution Guidelines
-        type: "input",
-        name: "contributors",
-        message: "Who contributed to the project?"
+        type: 'input',
+        name: 'contributors',
+        message: 'Who contributed to the project?'
     },
     {   // Test Instructions
-        type: "input",
-        name: "test",
-        message: "What tests will you run for this application?"
+        type: 'input',
+        name: 'test',
+        message: 'What tests will you run for this application?'
     },
     {
-        type: "input",
-        name: "github",
-        message: "Enter your GitHub username"
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username'
     },
     {
-        type: "input",
-        name: "email",
-        message: "Enter your email address"
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address'
     },
     
 ];
@@ -68,7 +68,6 @@ function writeToFile(fileName, data) {
         }
       });
     }
-
 
 // TODO: Create a function to initialize app
 function init() {
@@ -89,9 +88,6 @@ init();
 
 
 // I THINK THIS IS THE MARKDOWN PART
-// // Function call to initialize app
-// init();
-
 
 // // Function to generate README content
 // function generateREADME(answers) {
@@ -102,13 +98,13 @@ init();
 //     content += `## Description\n${answers.description}\n\n`;
 
 //     // Table of Contents
-//     content += "## Table of Contents\n";
-//     content += "- [Installation](#installation)\n";
-//     content += "- [Usage](#usage)\n";
-//     content += "- [License](#license)\n";
-//     content += "- [Contributing](#contributing)\n";
-//     content += "- [Tests](#tests)\n";
-//     content += "- [Questions](#questions)\n\n";
+//     content += '## Table of Contents\n';
+//     content += '- [Installation](#installation)\n';
+//     content += '- [Usage](#usage)\n';
+//     content += '- [License](#license)\n';
+//     content += '- [Contributing](#contributing)\n';
+//     content += '- [Tests](#tests)\n';
+//     content += '- [Questions](#questions)\n\n';
 
 //     // Add installation instructions (how to)
 //     content += `## Installation\n${answers.installation}\n\n`;
