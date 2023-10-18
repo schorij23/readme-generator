@@ -1,26 +1,31 @@
 
-# name
+# README
 
 ## Description
-afd
+Project
 
-## Installation
-adsfddafsfdadasf
+## Table of Contents
+
+* [Installations](#installations)
+* [Usage](#usage)
+
+## Installations
+npm injuery
 
 ## Usage
-sfdaadsfdasfa
+npi in in youre terminal
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contributor
-fsdadsfadfsafds
+me
 
 ## Testing
-asdfdasdf
+npm test
 
 ## Github
-asfddsfa
+https://github.com/schorij23
 
 ## Email
-asdffds
+schorij23@gmail.com
