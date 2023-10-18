@@ -76,6 +76,9 @@ ${data.description}
 
 * [Installations](#installations)
 * [Usage](#usage)
+* [Contributors](#contributors)
+* [Testing](#testing)
+* [Questions](#questions)
 
 ## Installations
 ${data.installations}
@@ -86,17 +89,18 @@ ${data.usage}
 ## License
 ${licenseBadge}
 
-## Contributor
+## Contributors
 ${data.contributors}
 
 ## Testing
-${data.test}
+${data.tests}
 
-## Github
-${data.github}
+## Questions
 
-## Email
-${data.email}
+  This is my contact information if there are any questions
+
+  - GitHub user name ${data.github}
+  - Gmail address ${data.email}
 `;
 }
 
