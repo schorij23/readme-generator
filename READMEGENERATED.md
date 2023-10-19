@@ -1,10 +1,10 @@
 
-# Name
+# name
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-Describr
+project
 
 ## Table of Contents
 
@@ -38,5 +38,5 @@ npm test
 
   This is my contact information if there are any questions
 
-  - GitHub user name name
-  - Gmail address email
+  - GitHub user name https://github.com/schorij2e
+  - Gmail address schorij23@gmail.com
