@@ -1,10 +1,10 @@
 
-# name
+# README Genertator
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-project
+This project will generator a README
 
 ## Table of Contents
 
@@ -16,10 +16,14 @@ project
 * [Questions](#questions)
 
 ## Installations
-npm i
+In VS code create an file named .gitignore 
+include node_modules/ and .DS_Store/
+run npm init in the terminal
+run npm i inquirer@8.2.4
+run node index.js to run the application
 
 ## Usage
-generate readme
+To generate a README
 
 
 
@@ -29,14 +33,14 @@ The project is licensed by the MIT License.
 For more details, see [License Details](https://choosealicense.com/licenses/mit/)
 
 ## Contributors
-me
+Me
 
 ## Testing
-npm test
+npm test Will run all unit tests in inquirer
 
 ## Questions
 
   This is my contact information if there are any questions
 
-  - GitHub user name https://github.com/schorij2e
+  - GitHub user name https://github.com/schorij23
   - Gmail address schorij23@gmail.com

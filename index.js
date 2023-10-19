@@ -16,18 +16,19 @@ const questions = [
     {   // Project Description
         type: 'input',
         name: 'description',
-        message: 'Description your project:'
+        message: 'Enter a short Description to explain the project:'
     },
  
     {   // Installation
         type: 'input',
         name: 'installations',
-        message: 'How do you install this program'
+        message: 'How do you install this program',
+        default: 'In VS code create an file named .gitignore \ninclude node_modules/ and .DS_Store/\nrun npm init in the terminal\nrun npm i inquirer@8.2.4\nrun node index.js to run the application'
     },
     {   // Usage
         type: 'input',
         name: 'usage',
-        message: 'How to use this application'
+        message: 'How will this application be used'
     },
     {   // Create a License with more than on option
         type: 'list',
@@ -43,7 +44,8 @@ const questions = [
     {   // Test Instructions
         type: 'input',
         name: 'tests',
-        message: 'What tests will you run for this application?'
+        message: 'What tests will you run for this application?',
+        default: 'npm test Will run all unit tests in inquirer'
     },
     {
         type: 'input',
