@@ -23,7 +23,7 @@ const questions = [
         type: 'input',
         name: 'installations',
         message: 'How do you install this program',
-        default: 'In VS code create an file named .gitignore \ninclude node_modules/ and .DS_Store/\nrun npm init in the terminal\nrun npm i inquirer@8.2.4\nrun node index.js to run the application'
+        default: 'In VS code create an file named .gitignore<br>\nnext include node_modules/ and .DS_Store in .gitignore/<br>\nnext run npm init in the terminal<br>\nnext run npm i inquirer@8.2.4<br>\nthen run node index.js to run the application'
     },
     {   // Usage
         type: 'input',

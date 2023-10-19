@@ -1,10 +1,10 @@
 
-# README Genertator
+# README generator
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project will generator a README
+This project will generate a README
 
 ## Table of Contents
 
@@ -16,11 +16,11 @@ This project will generator a README
 * [Questions](#questions)
 
 ## Installations
-In VS code create an file named .gitignore 
-include node_modules/ and .DS_Store/
-run npm init in the terminal
-run npm i inquirer@8.2.4
-run node index.js to run the application
+In VS code create an file named .gitignore<br>
+next include node_modules/ and .DS_Store in .gitignore/<br>
+next run npm init in the terminal<br>
+next run npm i inquirer@8.2.4<br>
+then run node index.js to run the application
 
 ## Usage
 To generate a README
@@ -42,5 +42,5 @@ npm test Will run all unit tests in inquirer
 
   This is my contact information if there are any questions
 
-  - GitHub user name https://github.com/schorij23
+  - GitHub user name https://www.github.schorij23
   - Gmail address schorij23@gmail.com
