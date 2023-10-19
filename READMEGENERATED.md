@@ -1,35 +1,42 @@
 
-# afdgafgfd
+# Name
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-afdgfagf
+Describr
 
 ## Table of Contents
 
 * [Installations](#installations)
 * [Usage](#usage)
+* [License](#license)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
 
 ## Installations
-afdgfagfd
+npm i
 
 ## Usage
-adfgfadgfd
+generate readme
+
+
 
 ## License
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+The project is licensed by the MIT License.
+
+For more details, see [License Details](https://choosealicense.com/licenses/mit/)
 
 ## Contributors
-adfafggf
+me
 
 ## Testing
-adfggfad
+npm test
 
 ## Questions
 
   This is my contact information if there are any questions
 
-  - GitHub user name gfdadfagdfg
-  - Gmail address dfaggfdadfg
+  - GitHub user name name
+  - Gmail address email
