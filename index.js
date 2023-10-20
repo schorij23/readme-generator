@@ -45,7 +45,7 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'What tests will you run for this application?',
-        default: 'npm test Will run all unit tests in inquirer'
+        default: 'npm test can be used to run all unit tests'
     },
     {
         type: 'input',
@@ -77,7 +77,7 @@ function init() {
     .prompt(questions).then(function(answers) {
         console.log(answers)
       const markdownContent = generateMarkdown(answers);
-      writeToFile('READMEGENERATED.md', markdownContent);
+      writeToFile('assets/README.md', markdownContent);
     })
     .catch((error) => {
       console.error(error);

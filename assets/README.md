@@ -36,11 +36,11 @@ For more details, see [License Details](https://choosealicense.com/licenses/mit/
 Me
 
 ## Testing
-npm test Will run all unit tests in inquirer
+npm test can be used to run all unit tests
 
 ## Questions
 
   This is my contact information if there are any questions
 
-  - GitHub user name https://www.github.schorij23
+  - GitHub user name https://www.github/schorij23
   - Gmail address schorij23@gmail.com
