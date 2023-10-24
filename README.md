@@ -30,7 +30,9 @@ THEN I am taken to the corresponding section of the README
 ```
 
 
-https://github.com/schorij23/readme-generator/assets/5600528/0328ad88-1588-4ec3-8411-b8308c6ca34d
+
+https://github.com/schorij23/readme-generator/assets/5600528/ec47f17c-eae9-46da-b631-1dce4468cd34
+
 
 ![gitbash readme terminal](https://github.com/schorij23/readme-generator/assets/5600528/ac828dc1-7e4a-4f9c-ba57-70cb36b56b55)
 ![README screenshot 1](https://github.com/schorij23/readme-generator/assets/5600528/83a55fc8-2625-47f4-8d79-d39a38e024b2)
