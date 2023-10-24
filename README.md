@@ -31,6 +31,7 @@ THEN I am taken to the corresponding section of the README
 
 
 https://github.com/schorij23/readme-generator/assets/5600528/c457be59-838a-42ef-a88a-b7e127c1b437
+[README generator walkthrough.webm](https://github.com/schorij23/readme-generator/assets/5600528/2551fc3a-bf19-48a7-9834-c0a18630eb99)
 
 
 
