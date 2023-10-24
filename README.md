@@ -31,14 +31,8 @@ THEN I am taken to the corresponding section of the README
 
 
 
-https://github.com/schorij23/readme-generator/assets/5600528/e094571d-4e1f-411a-9a38-0f4fd4c0ecbd
 
-
-
-
-
-https://github.com/schorij23/readme-generator/assets/5600528/c457be59-838a-42ef-a88a-b7e127c1b437
-[README generator walkthrough.webm](https://github.com/schorij23/readme-generator/assets/5600528/2551fc3a-bf19-48a7-9834-c0a18630eb99)
+https://github.com/schorij23/readme-generator/assets/5600528/ff08c6bc-0287-4efa-b4e0-eab365316715
 
 
 
