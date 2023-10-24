@@ -29,10 +29,10 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## README locations
+## README location
 ```
 The Generated README is in the assets folder
-
+This is the README to explain the project
 ```
 
 
