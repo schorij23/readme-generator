@@ -1,5 +1,4 @@
-// function to the license Badge Image
-
+// This creates a license badge based on the provided license type
 function renderLicenseBadge(license) {
   const licenseBadges = {
     'MIT': 'https://img.shields.io/badge/License-MIT-yellow.svg',
@@ -9,6 +8,7 @@ function renderLicenseBadge(license) {
     'BSD2': 'https://img.shields.io/badge/License-BSD%202--Clause-blue.svg',
     'BSD3': 'https://img.shields.io/badge/License-BSD%203--Clause-blue.svg',
     'EPL2.0': 'https://img.shields.io/badge/License-EPL%202.0-red.svg',
+    'None': 'https://img.shields.io/badge/license-Unlicense-blue.svg',
   };
 
   if (licenseBadges[license]) {
@@ -17,10 +17,10 @@ function renderLicenseBadge(license) {
     return '';
   }
 }
-
+// Export the renderLicenseBadge function to use in other files
 module.exports = renderLicenseBadge;
 
-// If there is no license, return an empty string
+// This creates a license link based on the provided license type
 function renderLicenseLink(license) {
   const licenseLinks = {
     'MIT': 'https://choosealicense.com/licenses/mit/',
@@ -30,6 +30,7 @@ function renderLicenseLink(license) {
     'BSD2': 'https://choosealicense.com/licenses/bsd-2-clause/',
     'BSD3': 'https://choosealicense.com/licenses/bsd-3-clause/',
     'EPL2.0': 'https://choosealicense.com/licenses/epl-2.0/',
+    'None' : 'https://choosealicense.com/licenses/unlicense/',
   };
   if (licenseLinks[license]) {
     return `For more details, see [License Details](${licenseLinks[license]})`;
@@ -37,10 +38,10 @@ function renderLicenseLink(license) {
     return '';
   }
 }
+// Export the renderLicenseLink function to use in other files
 module.exports = renderLicenseLink;
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// This creates a license section based on the provided license type
 function renderLicenseSection(license) {
   const licenseSections = {
     'MIT': 'The project is licensed by the MIT License.',
@@ -50,6 +51,7 @@ function renderLicenseSection(license) {
     'BSD2': 'The project is licensed by the BSD 2-Clause “Simplified” License',
     'BSD3': 'The project is licensed by the BSD 3-Clause “New” or “Revised” License',
     'EPL2.0': 'The project is licensed by the Eclipse Public License 2.0',
+    'None' : 'The project license has no conditions whatsover'
   };
   if (licenseSections[license]) {
     return `\n## License\n${licenseSections[license]}`;
@@ -57,15 +59,15 @@ function renderLicenseSection(license) {
     return '';
   }
 }
+// Export the renderLicenseSection function to use in other files
 module.exports = renderLicenseSection;
 
-// TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
   const licenseLink = renderLicenseLink(data.license);
   const licenseSection = renderLicenseSection(data.license);
-
+// Return a README markdown based on the provided data and license information
   return `
 # ${data.title}
 
@@ -108,7 +110,7 @@ ${data.tests}
   - Gmail address ${data.email}
 `;
 }
-
+// Export the generateMarkdown function to use in other files
 module.exports = generateMarkdown;
 
 

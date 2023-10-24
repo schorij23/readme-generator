@@ -23,7 +23,7 @@ const questions = [
         type: 'input',
         name: 'installations',
         message: 'How do you install this program',
-        default: 'In VS code create an file named .gitignore<br>\nnext include node_modules/ and .DS_Store in .gitignore/<br>\nnext run npm init in the terminal<br>\nnext run npm i inquirer@8.2.4<br>\nthen run node index.js to run the application'
+        default: 'In VS code create an file named .gitignore<br>\nnext include node_modules/ and .DS_Store in .gitignore/<br>\nnext run npm init in the terminal<br>\nnext run npm i for newest inquirer<br>\nthen run node index.js to run the application'
     },
     {   // Usage
         type: 'input',
@@ -45,14 +45,14 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'What tests will you run for this application?',
-        default: 'npm test can be used to run all unit tests'
+        default: 'the npm test command is built in testing'
     },
-    {
+    {   //GitHub user name
         type: 'input',
         name: 'github',
         message: 'Enter your GitHub username'
     },
-    {
+    {   // email
         type: 'input',
         name: 'email',
         message: 'Enter your email address'
@@ -60,26 +60,31 @@ const questions = [
     
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err){
+        // if there is an error log the error message
         if (err) {
           console.error(err);
+        // If the file was saved log the message with the file name
         } else {
-          console.log(`README.md was successfully as ${fileName}`);
+          console.log(`README.md was successfully generated to ${fileName}`);
         }
       });
     }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
+    // This uses the inquirer library to prompt the user with questions
     inquirer
     .prompt(questions).then(function(answers) {
+        // This logs the answers to the console
         console.log(answers)
       const markdownContent = generateMarkdown(answers);
       writeToFile('assets/README.md', markdownContent);
     })
     .catch((error) => {
+      // This log the error to the console  
       console.error(error);
     });
 }

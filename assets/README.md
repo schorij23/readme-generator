@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project will generate a README
+This project will help to create a more professional README
 
 ## Table of Contents
 
@@ -19,11 +19,11 @@ This project will generate a README
 In VS code create an file named .gitignore<br>
 next include node_modules/ and .DS_Store in .gitignore/<br>
 next run npm init in the terminal<br>
-next run npm i inquirer@8.2.4<br>
+next run npm i for newest inquirer<br>
 then run node index.js to run the application
 
 ## Usage
-To generate a README
+This project is used to create a README and can be customized for other projects
 
 
 
@@ -36,7 +36,7 @@ For more details, see [License Details](https://choosealicense.com/licenses/mit/
 Me
 
 ## Testing
-npm test can be used to run all unit tests
+the npm test command is built in testing
 
 ## Questions
 
