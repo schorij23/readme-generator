@@ -29,7 +29,11 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
+## README locations
+```
+The Generated README is in the assets folder
 
+```
 
 
 https://github.com/schorij23/readme-generator/assets/5600528/ff08c6bc-0287-4efa-b4e0-eab365316715
